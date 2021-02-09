@@ -1,9 +1,46 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Nunito', sans-serif;
-    background: #E5E5E5;
+body {
+  font-family: "Nunito", sans-serif;
+  background: #e5e5e5;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+/* header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 54px;
+}
+.header__title {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 82px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.header__author {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.header__newtask{
+    font-size: 16px;
+line-height: 22px;
+font-weight: 400;
+color:#000000;
+padding: 9px 56px;
+background: #F5D57F;
+border-radius: 4px;
 }
